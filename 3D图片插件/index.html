@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+        }
+        .wrapper{
+            margin: 0 auto;
+            width: 1200px;
+            height: 500px;
+            margin-top: 200px;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="./images/1.jpg" alt="">
+        <img src="./images/2.jpg" alt="">
+        <img src="./images/3.jpg" alt="">
+        <img src="./images/4.jpg" alt="">
+        <img src="./images/5.jpg" alt="">
+    </div>
+
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/img3DPlugin.js"></script>
+    <script>
+
+        $('.wrapper').slider({
+            curDisplay: 0, // 中间图片的索引
+            isAutoPlay: true, // 是否自动轮播
+            interval: 2000, // 间隔时间
+            width: '300px', // 图片宽
+            height: '200px',// 图片高
+        })
+
+    </script>
+
+
+
+</body>
+</html>

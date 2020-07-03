@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .demo {
+            width: 800px;
+            height: 2000px;
+            margin: 100px auto;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="demo"></div>
+
+
+    <script src="../my轮播图插件/js/tools/jquery-3.4.1.js"></script>
+    <script src="./js/menu.js"></script>
+    <script>
+
+        data = [
+            {
+                "name": "家用电器",
+                "href": "#",
+                "detail": [
+                    {
+                        "title": "电视",
+                        "items": [
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            }]
+                    },
+                    {
+                        "title": "空调",
+                        "items": [
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            },
+                            {
+                                "name": "曲面电视",
+                                "href": "#"
+                            }
+                        ]
+                    },
+                ]
+            }, {
+                "name": "电器",
+                "href": "#",
+                "detail": [{
+                    "title": "吹风机",
+                    "items": [
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        }
+                    ]
+                }
+                ]
+            }
+            ,
+            {
+                "name": "电器",
+                "href": "#",
+                "detail": [{
+                    "title": "风机",
+                    "items": [
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        }
+                    ]
+                }
+                ]
+            },
+
+            {
+                "name": "电脑",
+                "href": "#",
+                "detail": [{
+                    "title": "吹",
+                    "items": [
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        }
+                    ]
+                }
+                ]
+            },
+            {
+                "name": "，，，，",
+                "href": "#",
+                "detail": [{
+                    "title": "吹风",
+                    "items": [
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        }
+                    ]
+                }
+                ]
+            },
+            {
+                "name": "。。。。。",
+                "href": "#",
+                "detail": [{
+                    "title": "吹风机",
+                    "items": [
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        },
+                        {
+                            "name": "曲面电视",
+                            "href": "#"
+                        }
+                    ]
+                }
+                ]
+            },
+        ]
+
+        $('.demo').menu({
+            data: data,
+        })
+
+    </script>
+
+</body>
+
+</html>
