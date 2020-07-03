@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warpper {
+            width: 500px;
+            height: 350px;
+            outline: 10px solid black;
+            border-radius: 5px;
+            margin: 30px auto;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="warpper"></div>
+    
+    <script src="./slides.js"></script>
+
+    <script>
+        let warpper = document.getElementsByClassName('warpper')[0];
+        const root = window.banner;
+        root.createBannerArea(warpper, [
+            {imgUrl: "./img/1.jpg", link: "https://www.baidu.com"},
+            {imgUrl: "./img/2.jpg", link: "https://www.baidu.com"},
+            {imgUrl: "./img/3.jpg", link: "https://www.baidu.com"},
+            {imgUrl: "./img/4.jpg", link: "https://www.baidu.com"}
+        ])
+
+    </script>
+</body>
+</html>
